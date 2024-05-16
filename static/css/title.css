@@ -1,4 +1,4 @@
-.titolo h2{
+.titolo h1{
     font-family: "Merriweather", serif;
 }
 
@@ -6,6 +6,8 @@
     color: white;
     font-size: 80px;
     font-weight: bold;
-    border-top: ;
-    border-bottom: ;
+    border-bottom: 1px solid #343434;
+    border-top: 1px solid #343434;
+   text-align: center;
 }
+
