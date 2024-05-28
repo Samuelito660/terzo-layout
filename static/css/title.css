@@ -1,13 +1,30 @@
-.titolo h1{
+.main h1{
     font-family: "Merriweather", serif;
-}
-
-.titolo{
     color: white;
     font-size: 80px;
     font-weight: bold;
-    border-bottom: 1px solid #343434;
-    border-top: 1px solid #343434;
-   text-align: center;
+    border-bottom: 3px solid #343434;
+    border-top: 3px solid #343434;
+    padding-top: 18.5px;
+    padding-bottom: 18.5px;
+    font-style: normal;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+}
+
+.sottotitolo{
+    color: white;
+    font-style: normal;
+    font-size: 30px;
+    margin-top: 50px;
+    width: 937px;
+    text-align: center;
+    font-family: "Hoefler Text", serif ;
 }
 
