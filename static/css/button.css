@@ -1,19 +1,18 @@
 .button{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    font-family: 'Merriweather', sans-serif ;
-    width: 388px;
-    height: 64px;
-    text-decoration: none;
-    margin-top: 44.5px;
-    color: #080C71;
+    margin-top: 20px;
+    border-top: solid;
+    border-top-color: #ffffff;
+}
+
+.button a{
     font-size: 30px;
+    font-family: "Merriweather", serif;
+    color: #080C71;
+    background-color: #ffffff;
+    padding: 15px 120px 15px 120px;
     border-radius: 15px;
-    font-style: normal;
-    font-weight: bold;
-    /*border-top: 3px solid white;*/
+    margin-top: 45px;
+    text-decoration: none;
 
 }

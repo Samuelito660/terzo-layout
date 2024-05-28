@@ -1,0 +1,21 @@
+.menu{
+    margin-right: 35px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Merriweather", serif;
+
+}
+
+.menu ul{
+    display: flex;
+    margin-right: 35px;
+    margin-top: 87px;
+}
+
+.menu li{
+    list-style: none;
+    text-decoration: none;
+    font-size: none;
+    margin-left: 56px;
+    color: white;    
+}

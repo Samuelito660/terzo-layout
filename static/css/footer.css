@@ -1,0 +1,13 @@
+.footer{
+    display: flex;
+   justify-content: end;
+   margin-right: 35px;
+   padding-bottom: 30px;
+}
+
+.footer img{
+    width: 25px;
+    height: 25px;
+    margin-left: 70px;
+    margin-top: 170px;
+}
