@@ -1,4 +1,4 @@
-.footer{
+.loghi{
     padding: 35px;
     display: flex;
     flex-direction: row;
@@ -6,6 +6,6 @@
     align-items: flex-end;
 }
 
-.footer img{
+.loghi img{
     padding-left: 65px;
 }

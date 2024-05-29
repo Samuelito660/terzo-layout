@@ -1,13 +1,17 @@
 .hero{
     display: flex;
     flex-direction: column;
-    height: 100vh; 
     background-image:linear-gradient(180deg, rgba(0,0,0,0) 0%, #000 100%), url("../img/sfondo.png");
-    background-size: cover;
+    background-size: cover;    
+    height: 100vh; 
 }
 
 body{
     margin: 0 ;
     padding: 0;
+}
+
+.viewH{
+    height: 100vh;
 }
 
