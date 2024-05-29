@@ -1,3 +1,10 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+}
+
 .menu ul{
     display: flex;
     flex-direction: row;
@@ -7,24 +14,26 @@
     font-size: 20px;
     margin-top: 85px;
     margin-right: 35px;
-}
-
-.menu{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    position: relative;
+    
 }
 
 .menu li{
     padding-left: 54px;
  }
  
-.menu{
+.menu h1{
      width: 227px;
      height: 130px;
      margin-top: 20px;
      margin-left: 35px;
      position: absolute;
      left: 0;
+ }
+
+ .menu a:link, 
+ .menu a:visited,
+ .menu a:hover, 
+ .menu a:active{
+    color: white;
+    text-decoration: none;
  }

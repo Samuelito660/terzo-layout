@@ -1,16 +1,28 @@
-.main h2{
-    font-size: 80px;
-    line-height: 1;
-    color: white;
-    padding-top: 18.5px;
-    padding-bottom: 20.5px;
-    border-top: solid 3px #343434;
-    border-bottom: solid 3px #343434;
-    color: #ffffff;
-    
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
 }
 
-.sottotitolo{
+.title h2{
+    /*merriweather*/
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+
+
+    font-size: 80px;
+    color: #ffffff;
+    border-bottom: 3px solid #343434;
+    border-top: 3px solid #343434;
+    line-height: 1;
+    padding-bottom: 20.5px;
+    padding-top: 18.5px;
+}
+
+.sottotitolo p{
     color: #ffffff;
     font-size: 30px;
     text-align: center;
@@ -18,6 +30,13 @@
     font-weight: normal;
     justify-content: center;
     margin-top: 55.25px;
+    font-family: "Hoefler Text";
+}
+
+
+@font-face {
+    font-family: "Hoefler Text";
+    src: url(../fonts/ufonts.com_hoefler-text.ttf);
 }
 
 
