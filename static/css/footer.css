@@ -1,13 +1,11 @@
-.footer img{
-    margin-left: 55px;
-    margin-top: 200px;
-    
-}
-
 .footer{
+    padding: 35px;
     display: flex;
     flex-direction: row;
-   justify-content: end;
-   margin-right: 35px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
 
+.footer img{
+    padding-left: 65px;
 }

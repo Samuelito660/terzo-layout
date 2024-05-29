@@ -1,14 +1,30 @@
 .menu ul{
     display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: #fff;
+    line-height: 1;
+    font-size: 20px;
+    margin-top: 85px;
     margin-right: 35px;
-    margin-top: 60px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
 }
 
 .menu li{
-    list-style: none;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: "Merriweather", serif;
-    margin-left: 55px;
-    color: white;    
-}
+    padding-left: 54px;
+ }
+ 
+.menu{
+     width: 227px;
+     height: 130px;
+     margin-top: 20px;
+     margin-left: 35px;
+     position: absolute;
+     left: 0;
+ }
