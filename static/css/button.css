@@ -3,16 +3,20 @@
     margin-top: 20px;
     border-top: solid;
     border-top-color: #ffffff;
+    color: #080c71;
 }
 
 .button a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 30px;
+    height: 64px;
+    width: 388px;
     font-family: "Merriweather", serif;
-    color: #080C71;
     background-color: #ffffff;
-    padding: 15px 120px 15px 120px;
     border-radius: 15px;
-    margin-top: 45px;
+    margin-top: 44.5px;
     text-decoration: none;
     list-style: none;
 

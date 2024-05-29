@@ -1,8 +1,7 @@
 .footer img{
-    width: 25px;
-    height: 25px;
     margin-left: 55px;
-    margin-top: 180px;
+    margin-top: 200px;
+    
 }
 
 .footer{
@@ -10,4 +9,5 @@
     flex-direction: row;
    justify-content: end;
    margin-right: 35px;
+
 }
